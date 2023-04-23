@@ -368,7 +368,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
           <a
-            href="#"
+            href="https://wa.me/+5492255427173"
             class="
               bg-purple-700
               hover:bg-purple-800
@@ -497,6 +497,25 @@
     </div>
   </section>
 
+  <a
+    href="https://wa.me/+5492255427173"
+    target="_blank"
+    rel="noopener"
+    class="
+      fixed
+      bottom-8
+      right-7
+      bg-green-500
+      hover:bg-green-600
+      text-white
+      rounded-full
+      px-3
+      py-2
+    "
+  >
+    <i class="fab fa-whatsapp fa-2x"></i>
+  </a>
+
   <footer class="bg-gray-900 text-white">
     <div class="container mx-auto py-8 px-6">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -557,4 +576,22 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  padding: 10px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp-float i {
+  margin-top: 6px;
+}
+</style>
