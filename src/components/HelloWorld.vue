@@ -368,7 +368,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
           <a
-            href="https://wa.me/+5492255427173"
+            href="https://wa.me/+2664255928"
             class="
               bg-purple-700
               hover:bg-purple-800
@@ -498,7 +498,7 @@
   </section>
 
   <a
-    href="https://wa.me/+5492255427173"
+    href="https://wa.me/+2664255928"
     target="_blank"
     rel="noopener"
     class="
