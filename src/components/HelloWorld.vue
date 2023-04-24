@@ -159,8 +159,10 @@
               concepción de la idea hasta la implementación de la identidad
               corporativa completa.
             </p>
-            <a class="text-purple-500 font-bold hover:underline" href="#"
-              >Leer más</a
+            <a
+              class="text-purple-500 font-bold hover:underline"
+              href="https://wa.me/+2664255928"
+              >Más info</a
             >
           </div>
         </div>
@@ -173,8 +175,10 @@
               Creamos landing pages que se adapten a tu negocio para que puedas
               convertir visitas en clientes potenciales.
             </p>
-            <a class="text-purple-500 font-bold hover:underline" href="#"
-              >Leer más</a
+            <a
+              class="text-purple-500 font-bold hover:underline"
+              href="https://wa.me/+2664255928"
+              >Más info</a
             >
           </div>
         </div>
@@ -186,8 +190,10 @@
               funcionalidades que te ayudarán a vender tus productos de forma
               efectiva.
             </p>
-            <a class="text-purple-500 font-bold hover:underline" href="#"
-              >Leer más</a
+            <a
+              class="text-purple-500 font-bold hover:underline"
+              href="https://wa.me/+2664255928"
+              >Más info</a
             >
           </div>
         </div>
@@ -201,8 +207,10 @@
               idea hasta la implementación y mantenimiento del sistema, con
               diseños y funcionalidades personalizadas según tus necesidades.
             </p>
-            <a class="text-purple-500 font-bold hover:underline" href="#"
-              >Leer más</a
+            <a
+              class="text-purple-500 font-bold hover:underline"
+              href="https://wa.me/+2664255928"
+              >Más info</a
             >
           </div>
         </div>
@@ -217,8 +225,10 @@
               presencia activa en las principales plataformas y mejorar el
               engagement con los seguidores.
             </p>
-            <a class="text-purple-500 font-bold hover:underline" href="#"
-              >Leer más</a
+            <a
+              class="text-purple-500 font-bold hover:underline"
+              href="https://wa.me/+2664255928"
+              >Más info</a
             >
           </div>
         </div>
@@ -384,7 +394,7 @@
             >Contactar por WhatsApp</a
           >
           <a
-            href="#"
+            href="#form"
             class="
               bg-purple-500
               hover:bg-purple-600
@@ -409,7 +419,7 @@
   </section>
 
   <!-- Sección de formulario -->
-  <section class="bg-white py-8">
+  <section class="bg-white py-8" id="form">
     <div class="container mx-auto px-6">
       <div class="rounded-lg p-6">
         <h2 class="text-2xl font-bold text-gray-700 mb-8">
