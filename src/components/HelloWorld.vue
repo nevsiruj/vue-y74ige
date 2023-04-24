@@ -121,20 +121,22 @@
           móviles. Nos aseguramos de que cada solución sea única y se adapte a
           las necesidades específicas de cada cliente.
         </p>
-        <button
-          class="
-            bg-purple-700
-            text-white
-            font-bold
-            py-2
-            px-4
-            rounded
-            focus:outline-none focus:shadow-outline
-          "
-        >
-          <i class="fas fa-envelope mr-2"></i>
-          Contáctanos
-        </button>
+        <a href="#contacto">
+          <button
+            class="
+              bg-purple-700
+              text-white
+              font-bold
+              py-2
+              px-4
+              rounded
+              focus:outline-none focus:shadow-outline
+            "
+          >
+            <i class="fas fa-envelope mr-2"></i>
+            Contáctanos
+          </button>
+        </a>
       </div>
     </div>
   </section>
