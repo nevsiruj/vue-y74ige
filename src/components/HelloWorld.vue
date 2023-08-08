@@ -44,8 +44,14 @@
           <a class="text-lg text-white font-roboto mr-4" href="#metodologia"
             >Metodologia</a
           >
-          <a class="text-lg text-white font-roboto" href="#contacto"
+          <a class="text-lg text-white font-roboto mr-4" href="#contacto"
             >Contacto</a
+          >
+
+          <a
+            class="text-lg text-white font-roboto"
+            href="https://www.grupocodesi.com/cursos/curso-de-posicionamiento-seo.html"
+            >Partners</a
           >
         </div>
       </div>
@@ -97,6 +103,18 @@
           "
           href="#contacto"
           >Contacto</a
+        >
+        <a
+          class="
+            block
+            text-lg text-white
+            font-roboto
+            py-2
+            px-4
+            hover:bg-purple-800
+          "
+          href="https://www.grupocodesi.com/cursos/curso-de-posicionamiento-seo.html"
+          >Partners</a
         >
       </div>
     </div>
