@@ -48,10 +48,15 @@
             >Contacto</a
           >
 
+          <a @click="close" class="text-lg text-white font-roboto mr-4" href="#"
+            >Partners</a
+          >
           <a
+            v-show="validar"
             class="text-lg text-white font-roboto"
             href="https://www.grupocodesi.com/cursos/curso-de-posicionamiento-seo.html"
-            >Partners</a
+            target="_blank"
+            >Curso Seo</a
           >
         </div>
       </div>
@@ -113,8 +118,22 @@
             px-4
             hover:bg-purple-800
           "
-          href="https://www.grupocodesi.com/cursos/curso-de-posicionamiento-seo.html"
+          @click="close"
+          href="#"
           >Partners</a
+        >
+        <a
+          class="
+            block
+            text-lg text-white
+            font-roboto
+            py-2
+            px-4
+            hover:bg-purple-800
+          "
+          v-show="validar"
+          href="https://www.grupocodesi.com/cursos/curso-de-posicionamiento-seo.html"
+          >Curso Seo</a
         >
       </div>
     </div>
@@ -600,7 +619,13 @@ export default {
   data() {
     return {
       showMenu: false,
+      validar: false,
     };
+  },
+  methods: {
+    close() {
+      this.validar = !this.validar;
+    },
   },
 };
 </script>
