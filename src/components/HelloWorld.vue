@@ -272,6 +272,35 @@
       </div>
     </div>
   </section>
+<!-- Sección de Portafolio -->
+<section class="bg-white py-8" id="portafolio">
+<div class="container mx-auto px-6">
+  <h2 class="text-3xl font-bold text-purple-500 mb-8">
+    Nuestro Portafolio
+  </h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Tarjeta de proyecto 1 -->
+    <div class="rounded-lg shadow-md">
+      <img src="imagen_costea_com_co.jpg" alt="Costea" class="rounded-t-lg"/>
+      <div class="p-6">
+        <h3 class="text-xl font-bold text-black mb-2">Costea</h3>
+        <p class="text-gray-600">Descripción breve del proyecto Costea.</p>
+      </div>
+    </div>
+    <!-- Repetir para otros proyectos -->
+    <!-- Tarjeta de proyecto 2 -->
+    <div class="rounded-lg shadow-md">
+      <img src="imagen_app_costea_com_co.jpg" alt="App Costea" class="rounded-t-lg"/>
+      <div class="p-6">
+        <h3 class="text-xl font-bold text-black mb-2">App Costea</h3>
+        <p class="text-gray-600">Descripción breve del proyecto App Costea.</p>
+      </div>
+    </div>
+    <!-- Continuar con los demás proyectos de manera similar -->
+  </div>
+</div>
+</section>
+
 
   <!-- Sección de proceso o metodología de trabajo -->
   <section class="bg-white py-8" id="metodologia">
@@ -648,5 +677,17 @@ export default {
 
 .whatsapp-float i {
   margin-top: 6px;
+}
+
+/* Estilos para la sección de Portafolio */
+#portafolio img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#portafolio .grid {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 </style>
